@@ -1,0 +1,17 @@
+Outline:
+The goal of this project will be to determine a design space in which a LiF
+based, single fluid, molten salt reactor could opperate. The parametric 
+variables will primarily be the pin-pitch of the Zirconium-Hydride moderator
+rods, the fraction of core volume which the un-moderated upper-plenum 
+occupies, and the feed rate of new fuel. The variable to be optimized will be
+the final burnup off all fed fuel with a target goal of 98%.
+Methods:
+The Monte-Carlo code SERPENT will be employed both for criticality evaluation,
+a non-negotiable in the design space ( the reactor must be critical ) as well
+as burnup evaluation. For the proper modelling of the burnup evolution a
+modified form of the SERPENT code will be used in which Dr. Aufiero has 
+provided modified source code files to enable SERPENT to properly account
+for the continuos refueling and reprocessing that occurs in a molten salt
+reactor of this type. 
+Assumptions:
+
