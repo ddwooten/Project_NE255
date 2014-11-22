@@ -14,4 +14,35 @@ provided modified source code files to enable SERPENT to properly account
 for the continuos refueling and reprocessing that occurs in a molten salt
 reactor of this type. 
 Assumptions:
-
+We assume a right-cylindrical core barrel composed of Hastelloy-N at a thickness
+of 5cm with a height to diameter ratio of 0.9. Reactor thermal power is taken to
+be 1250MWth. The Zirconium-Hydride is taken to be be ZrH1.6 and it assumed
+to be clad with a 4.4um 316ss clad, again, clad with a 4.1um layer of
+molybedum followed, again, by a tertiary clad of 4.1um of Hastelloy-N. The totalvolume occupied by all non-fuel in the core is taken to be 50% of the total
+volume.  The
+Hastelloy-N alloy employed will be an experimental variety commonly reffered to
+as Hastelloy-N-modified, it replaces much of its molybedum content with titanium
+and niobium. Furthermore for the salt properties we assume a simple mixture model
+for density ( this allows us to ignore inter-consituent affects on density, 
+which, in molten salts, tend to be small anyway ) and we assume surrogate
+salts in place of actinide salts where data is scarce or non-available. We assume.
+Additionally we assume a simple mixture model for all other salt properties
+where data for the multi-component salt is non-avialble. The salt will LiF with
+varraying mol percents of UF3 and AcF3 disolved with the AcF3 content to to
+exceed 0.27 mol percent; though, should data surface indicating a high 
+solubility of actinides in LiF, this assumption may be loosened.
+A feed composition equal to the REBUS sample from the GKN Unit II reactor used
+in the SCALE 5.1 V&V report by Radulescu et al. will be assumed. This fuel was standard PWR UO2
+fuel enriched to 3.8wt% U-235 and burned for 54 GWD/MTU. In the reprocessing
+scheme hellium bubble sparging is assumed to remove all gaseous fission
+products and noble metals on a 4 second time scale ( roughly the core
+circulation time ). The larger scale reprocessing scheme will largely be
+modeled after ORNL's MSBR scheme sans Pa seperation. The inlet temperature
+for the salt is assumed to be 600 degrees Celcius with an outlet temperature
+of 650 degrees Celcius. The second derviative in temperature with respect to
+space will be assumed to be sinusoidal peaked at the center of the core and
+going to zero at the ends. Finally, it is assumed that after 40 years the plant
+is retired and the remaining fuel salt discharged.
+Deliverables: 
+Ultimately, a range of design parameters, pin-pitch, plenum size, and feed rate,
+that will provide for 98% burnup in a 40yr lifetime.
