@@ -1,3 +1,11 @@
+% ------ Created on 22-11-2014 at 17:45
+% ------ Comments:
+% ------ << 
+% ------ < Isotopic composition data from TransAtomic White 
+% ------ < paper read from Figure 10. Assumed only Actinides
+% ------ <  in iso vector. All actinides assumed to be in on
+% ------ < e valence config.
+% ------ >> 
 set title "TransAtomic Reactor Model"
 
 % --- Geometry Components
@@ -227,7 +235,21 @@ mat    FillGas    1    tmp    900    rgb    255    255    0
 mat     Graphite    -2.1    tmp 600 rgb 255 255 255
 
 % ------ Fuel Salt
-mat    FuelSalt    -3.7    tmp    900     rgb 225 0 0
+mat    FuelSalt   -3.07010387947    tmp    900         rgb 225 0 0
+92235.09c     0.0013677775
+92236.09c     0.0007333748
+92238.09c     0.1002264358
+93237.09c     0.0000730280
+94238.09c     0.0000041555
+94239.09c     0.0007241693
+94240.09c     0.0004120868
+94241.09c     0.0002051884
+94242.09c     0.0000817362
+95241.09c     0.0000512971
+95243.09c     0.0000203500
+9019.09c      0.6558135756
+3006.09c      0.0016101104
+3007.09c      0.2386767146
 
 % ------ End Fuel Salt
 

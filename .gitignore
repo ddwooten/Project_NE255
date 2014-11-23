@@ -15,3 +15,5 @@
 *.webm
 *.ods
 sss2
+*.py
+*log*
