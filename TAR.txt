@@ -12,7 +12,7 @@ FuelSalt
 
 % ------ Empty Pin
 pin 8
-FillGass  1.583
+FillGas  1.583
 316SS    -0.0044455
 Moly     -0.0041273
 HastelloyNMod -0.0041273
@@ -228,31 +228,12 @@ mat     Graphite    -2.1    tmp 700 rgb 255 255 255
 
 % ------ Fuel Salt
 mat    FuelSalt    -3.06717869887    tmp    900     rgb 225 0 0
-92234.09c     0.0000151837
-92235.09c     0.0016799730
-92236.09c     0.0005405675
-92238.09c     0.0911159992
-93237.09c     0.0004753745
-94238.09c     0.0003332326
-94239.09c     0.0044736147
-94240.09c     0.0024861384
-94241.09c     0.0009995556
-94242.09c     0.0008958827
-95241.09c     0.0004036667
-95242.09c     0.0000012022
-95243.09c     0.0001898776
-96242.09c     0.0000000033
-96243.09c     0.0000005910
-96244.09c     0.0001010049
-96245.09c     0.0000100593
-9019.09c      0.6552296880
-3006.09c      0.0016152135
-3007.09c      0.2394331715
+
 % ------ End Fuel Salt
 
 % --- Cross section library file path
 
-set acelib "/home/ddwooten/Documents/Research/Codes/SERPENT/serpent/xsdata/endfb7/sss_endfb7u.xsdata"
+%set acelib "/home/ddwooten/Documents/Research/Codes/SERPENT/serpent/xsdata/endfb7/sss_endfb7u.xsdata"
 
 % --- Boundary condition
 
