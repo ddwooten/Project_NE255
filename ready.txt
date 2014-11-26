@@ -199,35 +199,42 @@ cell    94 84 fill 84 -94
 % ------ Core
 cell    1    0    fill 94 -12 -2 4   
 
+% ------ Side Flow Area
+cell	2  0    fuel -1 12 -2 4
+
 % ------ Lower Plenum
-cell    2    0    fuel -4 5 -1
+cell    3    0    fuel -4 5 -1
 
 % ------ Upper Plenum
-cell    3    0   fuel -3 2 -1
+cell    4    0   fuel -3 2 -1
 
 % ------ Reactor Vessel
-cell    4    0    HastelloyNMod 1 -6 9 -8
+cell    5    0    HastelloyNMod 1 -6 9 -8
 
 % ------ Graphite Reflector
-cell    5    0    Graphite  6 -7 9 -8 
+cell    6    0    Graphite  6 -7 9 -8 
 
 % ------ Top Hastelloy Cap
-cell    6    0   HastelloyNMod  3 -8 -6 
+cell    7    0   HastelloyNMod  3 -8 -6 
 
 % ------ Bottom Hastelloy Cap
-cell    7   0    HastelloyNMod -5 9 -6 
+cell    8   0    HastelloyNMod -5 9 -6 
 
 % ------ Top Graphite Cap
-cell    8   0   Graphite 8 -10 -7 
+cell    9   0   Graphite 8 -10 -7 
 
 % ------ Bottom Graphite Cap
-cell    9   0    Graphite -9 11 -7 
-
-% ------ Side Flow Area
-cell	10  0    fuel -1 12 -2 4
+cell    10   0    Graphite -9 11 -7 
 
 % ------ Outside Geometry
-cell    11       0     outside   7 10 -11 
+cell    11   0     outside   7  
+
+% ------ Outside Geometry
+cell    12   0     outside   10  
+
+% ------ Outside Geometry
+cell    13   0     outside   -11  
+
 
 % --- Materials
 
@@ -298,37 +305,6 @@ mat fuel -3.07010387947 tmp 900 rgb 225 0 0 burn 1 vol 14680827.66
 % --- BURNUP DECK
 
 % ------ Burnup Intervals
-dep daystep
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
 % ------ End Burnup Intervals
 
 % ------ Set Power for Normalization
