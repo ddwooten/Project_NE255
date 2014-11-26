@@ -122,7 +122,7 @@ lat 93 1 0. 0. 3 3 152
 % ------ Stacking Lattice
 lat 94 9 0. 0. 2
 0.0 82 
-187 83 
+375 83 
 
 % --- Surfaces
 
@@ -333,6 +333,9 @@ dep daystep
 
 % ------ Set Power for Normalization
 set power 625000000
+
+% ------ Set Inventory for Burnup Report
+set inventory all
 
 % --- Cross section library file path
 
