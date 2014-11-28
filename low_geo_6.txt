@@ -78,75 +78,47 @@ lat 91 1 0. 0. 23 23 6
 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
-% ------ Assembly Bottom Lattice
-lat 92 1 0. 0. 3 3 138 
-80 80 80
-80 80 80
-80 80 80
-
-% ------ Assembly Top Lattice
-lat 93 1 0. 0. 3 3 138 
-81 81 81
-81 81 81 
-81 81 81
- 
-% ------ Stacking Lattice
-lat 94 9 0. 0. 2
-0.0 82 
-375 83 
 
 % --- Surfaces
 
-% ------ Assembly Nested Bottom Surface
-surf	90  sqc 0 0 69 0
+% ------ Top Graphite Reflector Cap Top
+surf   9   pz   440
 
-% ------ Assembly Nested Top Surface
-surf    91 sqc 0 0 69 0
-
-% ------ Assembly Bottom Surface
-surf    92 sqc 0 0 207 0
-
-% ------ Assembly Top Surface
-surf    93 sqc 0 0 207 0
-
-% ------ Stacked Surface
-surf    94 sqc 0 0 207 0
-
-% ------ Core Barrel
-surf    1    cyl    0 0 208 
-
-% ------ Upper Plenum Bottom
-surf    2  pz  375
+% ------ Top Cap Top
+surf    8   pz 390
 
 % ------ Upper Plenum Top
-surf    3  pz  385
+surf    7  pz  385
+
+% ------ Upper Plenum Bottom
+surf    6  pz  375
+
+% ------ Thermal Plane
+surf    5 pz 365
+
+% ------ Core Barrel
+surf    12    cyl    0 0 208 
+
+% ------ Assemblies
+surf  11 sqc 0 0 207 0
 
 % ------ Lower Plenum Top 
 surf    4   pz  0
 
 % ------ Lower Plenum Bottom 
-surf    5 pz -10
-
-% ------ Reactor Vessel Outer Wall
-surf    6    cyl    0 0 213 
-
-% ------ Massive Graphite Reflector
-surf    7   cyl     0 0 263 
-
-% ------ Top Cap Top
-surf    8   pz 390
+surf    3 pz -10
 
 % ------ Bottom Cap Bottom
-surf    9   pz   -15
+surf    2   pz   -15
 
-% ------ Top Graphite Reflector Cap Top
-surf   10   pz   440
+% ------ Reactor Vessel Outer Wall
+surf    13    cyl    0 0 213 
+
+% ------ Massive Graphite Reflector
+surf    14   cyl     0 0 263 
 
 % ------ Bottom Graphite Reflector Cap Bottom
-surf   11  pz   -65
-
-% ------ Assemblies
-surf  12 sqc 0 0 207 0
+surf   1  pz   -65
 
 % --- Cells
 
